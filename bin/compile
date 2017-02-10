@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-ll "$1"
-ll "$2"
+ls -lap "$1"
+ls -lap "$2"
 
 echo "Compile succeeded"
 exit 0
