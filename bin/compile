@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+echo "Compile succeeded"
+exit 0
