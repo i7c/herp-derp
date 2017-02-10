@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+
+ll "$1"
+ll "$2"
+
 echo "Compile succeeded"
-which perl
 exit 0
