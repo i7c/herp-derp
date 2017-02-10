@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 echo "Compile succeeded"
+which perl
 exit 0
