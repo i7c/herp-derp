@@ -1,7 +1,11 @@
 #!/usr/bin/env bash
 
-ls -lap "$1"
-ls -lap "$2"
+BDIR="$1"
+CDIR="$2"
 
-echo "Compile succeeded"
-exit 0
+echo "$BDIR";
+echo "$CDIR";
+
+cd "$BDIR" || exit 99;
+ls -lap "$BDIR";
+unzip application.zip
