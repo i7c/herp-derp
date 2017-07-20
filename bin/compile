@@ -5,7 +5,13 @@ CDIR="$2"
 
 echo "$BDIR";
 echo "$CDIR";
-
-ls -lap /home/vcap/app
+echo "-----------";
+pwd;
+echo "-----------";
+ls -laph;
+echo "-----------";
+ls -laph $BDIR;
+echo "-----------";
+ls -laph $CDIR;
 echo "OK.";
 exit 0;
