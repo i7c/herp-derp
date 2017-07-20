@@ -6,6 +6,6 @@ CDIR="$2"
 echo "$BDIR";
 echo "$CDIR";
 
-cd "$BDIR" || exit 99;
-ls -lap "$BDIR";
-unzip application.zip
+ls -lap /home/vcap/app
+echo "OK.";
+exit 0;
